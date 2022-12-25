@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.box{
+    background: #333;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input[type = text]{
+    width: 90%;
+    height: 35px;
+    margin: 10px 10px;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom:2px solid rgb(255, 69, 2);
+    
+}
+input[type = email]{
+    width: 90%;
+    height: 35px;
+    margin: 10px 10px;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom:2px solid rgb(255, 69, 2);
+    
+}
+input[type = password]{
+    width: 90%;
+    height: 35px;
+    margin: 10px 10px;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom:2px solid rgb(255, 69, 2);
+    
+}
+input[type = submit]{
+    width: 90%;
+    height: 35px;
+    margin: 20px 10px;
+    background: rgb(255, 69, 2);
+    border: none;
+    outline:none;
+  
+    
+}
+input::placeholder{
+    color: white;
+}
+p{
+    color: white;
+   padding:0 60px;
+}
+a{
+    color:rgb(255, 69, 2);
+    padding: -260px 190px;
+}
